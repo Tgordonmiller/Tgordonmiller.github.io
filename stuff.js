@@ -1,1 +1,1 @@
-[" ","","warn user"],alert("warning")
+ext._shutdown = function() {};ext._getStatus = function() { return {status: 2, msg: 'Ready'};}; ext.warn user = function (callback){ alert("WARNING!") }; var descriptor = { blocks: [ [" ","","warn user"],],menus: {},url: 'https://kyleplo.github.io/scratch-extension-creator/help#'Hello!};ScratchExtensions.register('stuff', descriptor, ext);
