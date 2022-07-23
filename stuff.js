@@ -16,14 +16,14 @@ class MyExtension {
 
       // `name` is what the user sees in the toolbox
       // It can be changed without breaking projects.
-      name: 'Cool Extension',
+      name: 'pi',
 
       blocks: [
         {
           // `opcode` is the internal ID of the block
           // It should never change!
           // It corresponds to the class method with the same name.
-          opcode: 'hello',
+          opcode: 'hi',
           blockType: Scratch.BlockType.REPORTER,
           text: 'Hello, world!'
         }
@@ -34,11 +34,11 @@ class MyExtension {
   /**
    * Corresponds to `opcode: 'hello'` above
    */
-  hello() {
+  hi() {
     // You can just return a value: any string, boolean, or number will work.
     // If you have to perform an asynchronous action like a request, just return a Promise.
     // The block will wait until the Promise resolves and return the resolved value.
-    return 'Hello, world!';
+    return '3.14159265358979323846264338327950288419716939937510582097494459230781640628620899862803482534211706798214808651328230664709384460955058223172535940812848111745028410270193852110555964462294895493038196442881097566593344612847564823378678316527120190914564856692346034861045432664';
   }
 }
 
