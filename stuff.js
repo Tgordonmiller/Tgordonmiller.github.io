@@ -25,7 +25,7 @@ class MyExtension {
           // It corresponds to the class method with the same name.
           opcode: 'hi',
           blockType: Scratch.BlockType.REPORTER,
-          text: 'Hello, world!'
+          text: 'PI'
         }
       ]
     };
