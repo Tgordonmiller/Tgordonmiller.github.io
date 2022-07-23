@@ -24,7 +24,7 @@ class MyExtension {
           // It should never change!
           // It corresponds to the class method with the same name.
           opcode: 'hi',
-          blockType: Scratch.BlockType.REPORTER,
+          blockType: Scratch.BlockType.BOOLEAN ,
           text: 'PI'
         }
       ]
