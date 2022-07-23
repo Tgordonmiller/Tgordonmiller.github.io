@@ -2,7 +2,6 @@
 // This isn't actually necessary, but it tends to look the best
 
 class weather {
-  var t = n;
   /**
    * Scratch will call this method *once* when the extension loads.
    * This method's job is to tell Scratch things like the extension's ID, name, and what blocks it supports.
