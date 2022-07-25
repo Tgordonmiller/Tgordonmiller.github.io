@@ -10,11 +10,11 @@ class StrictEqualityExtension {
           text: '[ONE] strictly equals [TWO]',
           arguments: {
             ONE: {
-              type: Scratch.ArgumentType.ANGLE,
+              type: Scratch.ArgumentType.COLOR,
               defaultValue: 'First value'
             },
             TWO: {
-              type: Scratch.ArgumentType.ANGLE,
+              type: Scratch.ArgumentType.COLOR,
               defaultValue: 'Second value'
             }
           }
