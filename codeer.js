@@ -1,17 +1,21 @@
-class codeer {
+class StrictEqualityExtension {
   getInfo() {
     return {
-      id: 'codeer', // change this if you make an actual extension!
-      name: 'codeer',
+      id: 'strictequalityexample', // change this if you make an actual extension!
+      name: 'Strict Equality',
       blocks: [
         {
           opcode: 'strictlyEquals',
-          blockType: Scratch.BlockType.COMMAND,
-          text: 'set to [ONE]',
+          blockType: Scratch.BlockType.BOOLEAN,
+          text: '[ONE] strictly equals [TWO]',
           arguments: {
             ONE: {
-              type: Scratch.ArgumentType.MATRIX
-              defaultValue: 'matrix'
+              type: Scratch.ArgumentType.ANGLE,
+              defaultValue: 'First value'
+            },
+            TWO: {
+              type: Scratch.ArgumentType.ANGLE,
+              defaultValue: 'Second value'
             }
           }
         }
@@ -20,7 +24,7 @@ class codeer {
   }
   strictlyEquals(args) {
     // Note strict equality: Inputs must match exactly: in type, case, etc.
-    m = args.ONE
+    return args.ONE === args.TWO;
   }
 }
-Scratch.extensions.register(new codeer());
+Scratch.extensions.register(new StrictEqualityExtension());
