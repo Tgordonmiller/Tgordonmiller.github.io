@@ -1,4 +1,4 @@
-class StrictEqualityExtension {
+class codeer {
   getInfo() {
     return {
       id: 'codeer', // change this if you make an actual extension!
