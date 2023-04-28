@@ -1,4 +1,4 @@
-class HelloWorld {
+class Pie {
     getInfo() {
       return {
         id: 'Pie',
@@ -18,4 +18,4 @@ class HelloWorld {
     }
   }
   
-  Scratch.extensions.register(new HelloWorld());
+  Scratch.extensions.register(new Pie());
