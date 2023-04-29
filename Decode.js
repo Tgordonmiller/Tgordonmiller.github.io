@@ -1,25 +1,21 @@
-class DecodeScratch {
+class HelloWorld {
   getInfo() {
     return {
-      id: 'decode',
-      name: 'Decode',
+      id: 'helloworld',
+      name: 'It works!',
       blocks: [
         {
-          opcode: 'Decode',
-          blockType: Scratch.BlockType.REPORTER	,
-          text: 'Decode',
-          arguments: {
-            ONE: {
-              type: Scratch.ArgumentType.MATRIX
-            }
-          }
+          opcode: 'hello',
+          blockType: Scratch.BlockType.Hat,
+          text: 'Hello!'
         }
       ]
     };
   }
 
-  Decode(args) {
-    return args.ONE;
+  hello() {
+    ;
   }
 }
-Scratch.extensions.register(new DecodeScratch());
+
+Scratch.extensions.register(new HelloWorld());
